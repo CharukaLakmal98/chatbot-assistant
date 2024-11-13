@@ -18,7 +18,7 @@ function Sidebar({
     <>
       <div>
         <button
-          className={`fixed top-[60%]  transform -translate-y-1/2 z-10 p-2  text-white rounded-tr-full rounded-br-full transition-transform duration-300 ml-10 bg-purple-700  border border-gray shadow-lg hover:bg-purple-600 w-7  hover:border-gray-400 hover:shadow-xl ${
+          className={`fixed top-[53%]  transform -translate-y-1/2 z-10 p-2  text-white rounded-tr-full rounded-br-full transition-transform duration-300 ml-10 bg-purple-700  border border-gray shadow-lg hover:bg-purple-600 w-7  hover:border-gray-400 hover:shadow-xl ${
             isSidebarOpen ? "translate-x-[20rem]" : "translate-x-0 ml-[-0.1cm]"
           }`}
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
